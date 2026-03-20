@@ -79,8 +79,7 @@ O sistema possui:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
+git clone https://github.com/YguhCode/ProjetoPHP_CRUD
 
 2. Coloque o projeto em um servidor local:
 
@@ -91,7 +90,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 3. Acesse no navegador:
 
 ```bash
-http://localhost/seu-projeto/index.php
+http://localhost/ProjetoAula
 ```
 
 ---
