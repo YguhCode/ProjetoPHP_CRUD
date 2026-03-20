@@ -1,0 +1,273 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Iosevka Charon Mono", monospace;;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+body {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.box-main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    gap: 30px;
+    max-width: 320px;
+    min-height: 400px;
+    width: 90%;
+    margin: auto;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.box-main a {
+    text-align: center;
+    text-decoration: none;
+    color: #6c8ef5;
+    font-weight: 500;
+    display: block;
+}
+
+.box-main a:hover {
+    text-decoration: underline;
+}
+
+.box-main h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.box-main input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.box-main input,
+.box-main button {
+    transition: 0.3s;
+}
+
+.box-main input:focus {
+    outline: none;
+    border-color: #a6c1ee;
+    box-shadow: 0 0 5px rgba(166, 193, 238, 0.5);
+}
+
+
+ input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.box-main button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6c8ef5;
+    color: white;
+    cursor: pointer;
+} 
+
+.box-main button:hover {
+    background-color: #5a7be0;
+}
+
+/* ESTILIZAÇÃO DA LISTA.PHP */
+
+#form-lista{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+
+#form-lista label {
+    font-weight: 500;
+    color: #555;
+}
+
+
+
+#form-lista input {
+    padding: 8px 15px;
+    border-radius: 8px;
+    border:1px solid #ccc;
+    flex: 1;
+    min-width: 160px;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+}
+
+
+#form-lista button {
+     padding: 10px 16px;
+     border: none;
+     border-radius: 8px;
+     background-color: #6c8ef5;
+     color: white;
+     cursor: pointer;
+     transition: 0.3s ease;
+}
+
+#form-lista button:hover{
+    background-color: #5a7be0;
+}
+
+#form-lista {
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+}
+
+#form-lista a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#form-lista a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+.box-table {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.box-table .paragrafo-lista {
+    font-size: 12px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table-container a {
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.table-container a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.tabela-alunos {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 25px;
+}
+
+.tabela-alunos th, 
+.tabela-alunos td {
+    padding: 12px;
+    text-align: left;
+}
+
+.tabela-alunos th {
+    background-color: #f5f7fb;
+    font-weight: 600;
+}
+
+.tabela-alunos tr {
+    border-bottom: 1px solid #eee;
+}
+
+.tabela-alunos {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.tabela-alunos th, .tabela-alunos td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.tabela-alunos th {
+    background-color: #f5f7fb;
+    font-weight: 800px;
+}
+
+.tabela-alunos tr:hover {
+    background-color: #f9f9f9;
+}
+
+td a {
+    text-decoration: none;
+    color: #6c8ef5;
+    font-weight: 500;
+    margin-right: 8px;
+    padding: 4px 6px;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+td a:hover {
+    background-color: #eef2ff;
+}
+
+td form {
+    display: inline;
+}
+
+td button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+td button:hover {
+    background-color: #c0392b;
+}
+
+
+.box-table h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#cadastro {
+    font-size: 16px;
+    text-decoration: none;
+    text-decoration: underline;
+    color: #ffffff;
+    font-weight: 600;
+}

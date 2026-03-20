@@ -1,0 +1,42 @@
+[
+    {
+        "id": "4e82a5a71d14af9c",
+        "nome": "Santo",
+        "nota1": 9,
+        "nota2": 8,
+        "media": 8.5,
+        "situacao": "Aprovado."
+    },
+    {
+        "id": "3c5e772e26de62e4",
+        "nome": "Silde",
+        "nota1": 6,
+        "nota2": 7,
+        "media": 6.5,
+        "situacao": "Aprovado."
+    },
+    {
+        "id": "327e9b6b86582f79",
+        "nome": "Sil",
+        "nota1": 7,
+        "nota2": 8,
+        "media": 7.5,
+        "situacao": "Aprovado."
+    },
+    {
+        "id": "4ae655827fb9932d",
+        "nome": "Sil",
+        "nota1": 10,
+        "nota2": 10,
+        "media": 10,
+        "situacao": "Aprovado."
+    },
+    {
+        "id": "7a80a6b48466452f",
+        "nome": "Teste",
+        "nota1": 7,
+        "nota2": 6,
+        "media": 6.5,
+        "situacao": "Aprovado."
+    }
+]
